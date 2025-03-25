@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon December 9 10:41:37 2019
-
-@author: sila
-"""
 
 from sklearn.model_selection import train_test_split
 from sklearn import decomposition

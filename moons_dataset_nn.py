@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon December 9 15:16:37 2018
-
-@author: sila
-"""
-
 from sklearn.datasets import make_moons;
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -166,10 +159,3 @@ print(f"Training Accuracy: {train_accuracy:.2f}")
 
 test_accuracy = mlp.score(X_test, y_test)
 print(f"Testing Accuracy: {test_accuracy:.2f}")
-
-
-
-
-
-
-
